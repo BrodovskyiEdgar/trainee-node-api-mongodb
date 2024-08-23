@@ -3,7 +3,7 @@ const cors = require('cors');
 const { ObjectId } = require('mongodb');
 const morgan = require('morgan')
 const { connectToDb, getDb } = require('./db');
-require('donenv').config();
+require('dotenv').config();
 
 
 const app = express();
